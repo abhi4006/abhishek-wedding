@@ -1,0 +1,11 @@
+{
+  "name": "अभिषेक का शुभ विवाह",
+  "short_name": "अभिषेक विवाह",
+  "description": "वर पक्ष की ओर से अभिषेक एवं कंचन के शुभ विवाह का निमंत्रण।",
+  "lang": "hi",
+  "start_url": "/abhishek-wedding/",
+  "scope": "/abhishek-wedding/",
+  "display": "standalone",
+  "background_color": "#fdf5ef",
+  "theme_color": "#6f1d1b"
+}
