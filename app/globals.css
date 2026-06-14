@@ -297,11 +297,11 @@ a {
 
 .schedule {
   display: grid;
-  width: 91%;
-  grid-template-columns: 1fr 1px 1fr;
+  width: 96%;
+  grid-template-columns: 1fr 1px 1fr 1px 1fr;
   align-items: center;
-  gap: 2.1cqw;
-  padding: 1.4cqw 2.5cqw;
+  gap: 1.1cqw;
+  padding: 1.4cqw 1.5cqw;
   border-block: 1px solid rgba(166, 72, 104, 0.28);
   background: rgba(255, 247, 249, 0.38);
 }
@@ -316,12 +316,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.3cqw;
+  gap: 0.8cqw;
 }
 
 .schedule-item svg {
-  width: 2.9cqw;
-  height: 2.9cqw;
+  width: 2.5cqw;
+  height: 2.5cqw;
   color: var(--gold);
   stroke-width: 1.8;
 }
@@ -334,22 +334,14 @@ a {
 
 .schedule-item span {
   color: #84614f;
-  font-size: clamp(7px, 1.75cqw, 10px);
+  font-size: clamp(6px, 1.45cqw, 8px);
   font-weight: 700;
 }
 
 .schedule-item strong {
   color: var(--maroon);
-  font-size: clamp(8px, 2.1cqw, 12px);
+  font-size: clamp(7px, 1.65cqw, 9px);
   line-height: 1.25;
-}
-
-.vidai {
-  margin: 0;
-  color: #753c52;
-  font-size: clamp(8px, 2.15cqw, 12px);
-  font-weight: 750;
-  letter-spacing: 0.03em;
 }
 
 .venue {
